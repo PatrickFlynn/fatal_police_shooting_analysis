@@ -3,6 +3,9 @@ FROM continuumio/miniconda3
 # Install Jupyter Notebook
 RUN conda install -y -c anaconda notebook
 
+# Install Pandas, Numpy, Matplotlib, and Seaborn
+RUN conda install -y -c pandas numpy matplotlib seaborn
+
 # Optional: Disable Jupyter Notebook token
 ENV JUPYTER_TOKEN=my_easy_token
 
