@@ -1,13 +1,20 @@
+#Use miniconda base image
 FROM continuumio/miniconda3
 
-# Install Jupyter Notebook
-RUN conda install -y -c anaconda notebook
+# Create a new environment
+RUN conda create -n arcGIS_env python=3.8
 
-# Install Pandas, Numpy, Matplotlib, and Seaborn
-RUN conda install -y -c pandas numpy matplotlib seaborn
+# Activate environment (arcGIS API requires older python thus requiring a new env)
+RUN /bin/bash -c "source activate arcGIS_env \
+&& conda install -y -c pandas numpy=1.20 matplotlib seaborn \
+&& conda install -y -c anaconda jupyter notebook \
+&& conda install -c esri arcgis"
 
-# Optional: Disable Jupyter Notebook token
-ENV JUPYTER_TOKEN=my_easy_token
+# This isn't best practice, but gets the job done
+ENV PATH /opt/conda/envs/arcGIS_env/bin:$PATH
+
+# Optional: if we want to auth. notebook
+# ENV JUPYTER_TOKEN=my_easy_token
 
 # Expose the Jupyter port
 EXPOSE 8888
