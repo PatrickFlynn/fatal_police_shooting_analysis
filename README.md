@@ -14,16 +14,16 @@ View the Shootings on a Map
 [Map](https://patrickflynngis.maps.arcgis.com/apps/mapviewer/index.html?webmap=496b36de78694c7d86dfd0d9c25206e9)
 
 ## Summary
-The purpose of this repository and codebase is to document the source, methodology, and process used to create reproducible and trasparent publically available fatal shootings by the police from 2015 to 2023 (September 6th). The purpose of this data, analysis, and dashboard is to reduce fatal police shootings by 50%. 
+The purpose of this repository and codebase is to document the source, methodology, and process used to create reproducible, transparent, and publicly available fatal shootings by the police from 2015 to 2023 (September 6th). The purpose of this data, analysis, and dashboard is to reduce fatal police shootings by 50%. 
 
 > Officers aren’t trained to shoot to kill. They are trained to stop a threat. They use the tools they are given, and often have less than a second to make life-or-death decisions. Let’s give them better tools and put the toughest decisions in the hands of the courts.  - **Axon**
 
-This data should aim to inspire policy makers, law enforcement, private corporations, and the most importantly public. 
+This data should aim to inspire policy makers, law enforcement, private corporations, and most importantly the public.
 
 
 ## Limitations
 - Potentially missing data
-    - This data is public/open-sourced by the Washington Post.  Additionally the FBI UCR (Uniform Crime Report) / NIBRS (National Incident-Based Reporting System) does not provide easily attainable officer-involved-shooting data. Because of these factors this data should be recognized as an approximation of the true number of fatal shootings between the police and the public. Washington Post acknowledges this issue here: [Article](https://www.washingtonpost.com/investigations/interactive/2022/fatal-police-shootings-unreported/?itid=lk_inline_enhanced-template) 
+    - This data is public/open-sourced by the Washington Post.  Additionally, the FBI UCR (Uniform Crime Report) / NIBRS (National Incident-Based Reporting System) does not provide easily attainable officer-involved-shooting data. Because of these factors this data should be recognized as an approximation of the true number of fatal shootings between the police and the public. Washington Post acknowledges this issue here: [Article](https://www.washingtonpost.com/investigations/interactive/2022/fatal-police-shootings-unreported/?itid=lk_inline_enhanced-template) 
 
 - Approximated Geographic Location Information
     - While much of this dataset does have geocoordinates in the form of latitude/longitude. The precision is not exactly known. Further, many of the original datapoints provided by the Washington Post had no geolocation and therefore the city and state were used as an approximation of the incident's location. Any analysis performed in relation to geography should consider this when making any analytical judgements or estimations.
