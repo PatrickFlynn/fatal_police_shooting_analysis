@@ -8,7 +8,7 @@
 [Fatal Police Shooting Dasboard by Patrick Flynn](https://patrickflynngis.maps.arcgis.com/apps/dashboards/ffc402a7bd2b4a7fb9c0305da4a362a8)
 
 Dashboard Preview  
-[![Image](https://patrickflynngis.maps.arcgis.com/sharing/rest/content/items/ffc402a7bd2b4a7fb9c0305da4a362a8/info/thumbnail/thumbnail1694996440922.png?token=EfQJF9MNPbBErWCn4zeunsxwPNSyK_EP7xaQoASEYek3veGoJjqj-eLPVz23lxScbM2DVbW7XBjHtU-3iaVbp4URf8YIbmDd3oyFQu6E3xso2ml5GC7x4IHncBKlTjA0fnc-K8CosJvcEAsWpuvT3IfllPcnTsu7vDDBaOMlwKQsUD_TNjlNLGYVrTKStobDurmkTcbR1yXCYCO5v3w74kT7yxTHDA7S2aCrRrz8DFo.)](https://patrickflynngis.maps.arcgis.com/apps/dashboards/ffc402a7bd2b4a7fb9c0305da4a362a8)
+[![Image](https://patrickflynngis.maps.arcgis.com/sharing/rest/content/items/ffc402a7bd2b4a7fb9c0305da4a362a8/info/thumbnail/thumbnail1694996440922.png)](https://patrickflynngis.maps.arcgis.com/apps/dashboards/ffc402a7bd2b4a7fb9c0305da4a362a8)
 
 View the Shootings on a Map  
 [Map](https://patrickflynngis.maps.arcgis.com/apps/mapviewer/index.html?webmap=496b36de78694c7d86dfd0d9c25206e9)
