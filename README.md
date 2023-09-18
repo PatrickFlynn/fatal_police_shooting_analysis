@@ -70,3 +70,7 @@ Click below or navigate to localhost:8888
 ```
 docker stop fatal_police_shooting_analysis
 ```
+
+## Future Improvements:
+1. Automatic updates of new data to dashboard
+2. Better aliases/feature names for non-familiar audiences
